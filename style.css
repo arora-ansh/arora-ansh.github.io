@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+}
+.pagecontent {
+	margin: 18% 20% 0% 20%;
+	font-size: 2em;
+	text-align: center;
+	line-height: 2em;
+}
+
+.title {
+	font-family: 'Girassol', cursive;
+	text-transform: uppercase;
+  	font-size: 3em;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	color: #000000;
+}
+
+@media screen and (max-width: 768px){
+	.title {
+		font-size: 1em;
+		margin-bottom: 1.5em;
+	}
+	.lab {
+		height: 1.5em;
+		width: 1.5em;
+		line-height: 1.5em;
+	}
+}
+
+@media screen and (max-width: 528px) {
+	.title {
+		font-size: 1em;
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
+	.lab {
+		height: 1.5em;
+		width: 1.5em;
+		line-height: 1.5em;
+	}
+}
+
+.box {
+	margin: 0 0.1em;
+	display: inline-block;
+	height: 2.7em;
+	width: 2.7em;
+	line-height: 2.7em;
+}
+
+.lab {
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	display: inline-block;
+	border-radius: 50%;
+	border-color: #000;
+	border-style: solid;
+	border-width: 0.04em;
+	transition: 0.4s ease;
+}
+
+.box a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.lab:hover {
+	height: 2.4em;
+	width: 2.4em;
+	line-height: 2.4em;
+	background-color: #000;
+	color: #fff;
+	transition: 0.2s ease;
+}
