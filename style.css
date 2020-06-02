@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 768px){
 	.title {
 		font-size: 1em;
-		margin-bottom: 1.5em;
+		margin-bottom: 2em;
 	}
 	.lab {
 		height: 1.5em;
