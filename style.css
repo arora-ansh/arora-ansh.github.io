@@ -54,6 +54,7 @@ body {
 .lab {
 	height: 2em;
 	width: 2em;
+	color: #fff;
 	line-height: 2em;
 	display: inline-block;
 	border-radius: 50%;
